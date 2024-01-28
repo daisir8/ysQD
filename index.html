@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="原神怎么你了？？？">
+    <meta name="keywords" content="原神,厂白小神,厵神,OP">
+    <title>原神抽卡模拟器v2.2（网页版）</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="stylesheet" href="css/video.css">
+    <script src="js/vue.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="icon" type="image/x-icon" href="src/img/logo.png">
+</head>
+<body>
+    <div class="box">  
+        <!-- 这是第一个视频的容器（暂未使用） -->
+        <div id="videoTank">       
+            <video id="starVideo"></video>
+            <div id="videoHat" ></div>
+        </div>
+
+        <!-- 这是第二个视频的容器 -->
+        <div id="videoContainer">
+            
+            <video id="myVideo"></video>
+            <!-- <video id="myVideo myVideo1"></video>
+            <video id="myVideo myVideo2"></video>
+            <video id="myVideo myVideo3"></video>
+            <video id="myVideo myVideo4"></video>
+            <video id="myVideo myVideo5"></video>
+            <video id="myVideo myVideo6"></video>
+            <video id="myVideo myVideo7"></video>
+            <video id="myVideo myVideo8"></video>
+            <video id="myVideo myVideo9"></video>
+            <video id="myVideo myVideo10"></video> -->
+            <div id="videoMask" ></div>
+           
+        </div>
+                 
+        <div class="button">
+            
+            <div class="type2">
+                <img class="pray_once" src="src/img/pray_once.png" v-on:click="handle3()"/> <!--onclick="playVideo('src/img/star/prayvideo.mp4')" -->
+                <img class="pray_tenth" src="src/img/pray_tenth.png" v-on:click="handle4()"/>  <!--onclick="playVideo('src/img/star/prayvideo.mp4')" -->
+            </div>
+            
+        </div>
+    </div>
+    
+      
+
+
+
+    <script src="js/pray.js"></script>
+    <script src="js/help.js"></script>
+    <!-- <script src="js/show.js"></script> -->
+    <script src="js/setting.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/sound.js"></script>
+</body>
+</html>
